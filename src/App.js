@@ -41,7 +41,7 @@ function App() {
           <input name="duration" onChange={handleChange} placeholder="365"></input>
         </form>
 
-        <button onClick={handleSubmit}>Click to calculate</button>
+        <button onClick={handleSubmit}>Calculate</button>
 
         <div className="msg">
           <h2>
