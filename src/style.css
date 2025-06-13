@@ -21,13 +21,14 @@ main {
   flex-direction: column;
 }
 .stats-container header {
-  color: rgb(201, 201, 201);
   width: 70vh;
   margin-bottom: 5vh;
   text-align: center;
+  color: white;
 }
 .stats-container header p {
   margin: 1vh 0;
+  font-weight: 200;
 }
 .stats-container form {
   height: 30vh;

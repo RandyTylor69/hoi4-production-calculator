@@ -20,12 +20,14 @@ main {
   flex-direction: column;
 
   header {
-    color: rgb(201, 201, 201);
     width: 70vh;
     margin-bottom: 5vh;
     text-align: center;
+    color: white;
+
     p {
       margin: 1vh 0;
+      font-weight: 200;
     }
   }
 
@@ -64,8 +66,8 @@ main {
     color: rgb(254, 254, 254);
     cursor: pointer;
     background-color: rgb(123, 123, 123);
-    &:hover{
-        scale: 1.1;
+    &:hover {
+      scale: 1.1;
     }
   }
   .msg {
