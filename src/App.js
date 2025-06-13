@@ -29,15 +29,15 @@ function App() {
         </header>
 
         <form>
-          <p>Current Output</p>
+          <p>Current Output <img src="https://hoi4.paradoxwikis.com/images/f/fc/Production_output.png"></img> </p>
           <input name="output" onChange={handleChange} placeholder="1.8"></input>
-          <p>Current Efficiency</p>
+          <p>Current Efficiency <img src="https://hoi4.paradoxwikis.com/images/c/cf/Production_efficiency.png"></img></p>
           <input name="effiCurr" onChange={handleChange} placeholder="0.9"></input>
-          <p>Efficiency Cap</p>
+          <p>Efficiency Cap <img src="https://hoi4.paradoxwikis.com/images/c/ca/Production_efficiency_cap.png"></img> </p>
           <input name="effiCap" onChange={handleChange} placeholder="1.4"></input>
-          <p>Efficiency gain</p>
+          <p>Efficiency gain <img src="https://hoi4.paradoxwikis.com/images/c/cf/Production_efficiency.png"></img></p>
           <input name="effiGain" onChange={handleChange} placeholder="0.03"></input>
-          <p>Duration (days) </p>
+          <p>Duration (days) <img src="https://hoi4.paradoxwikis.com/images/0/08/Time.png"></img>  </p>
           <input name="duration" onChange={handleChange} placeholder="365"></input>
         </form>
 

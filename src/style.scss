@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Inter", sans-serif;
+  text-shadow: 2px 2px 2px black;
 }
 main {
   background-color: rgb(43, 46, 56);
@@ -43,6 +44,15 @@ main {
     p {
       color: rgb(231, 202, 115);
       font-size: 2vh;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin-left: 1vh;
+        width: 3vh;
+        height: 3vh;
+      }
     }
     input {
       background-color: rgb(43, 46, 56);
@@ -51,6 +61,7 @@ main {
       caret-color: rgb(201, 201, 201);
       color: rgb(201, 201, 201);
       padding-left: 1vh;
+      text-shadow: none;
       &:focus {
         outline: none;
       }
@@ -58,8 +69,8 @@ main {
   }
   button {
     border: none;
-    width: 20vh;
-    height: 5vh;
+    width: 15vh;
+    height: 3vh;
     margin-bottom: 2vh;
     transition: 0.2s;
     border-radius: 0.6vh;
