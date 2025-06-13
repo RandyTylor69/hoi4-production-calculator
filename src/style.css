@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  background-color: rgb(43, 46, 56);
+  height: 90vh;
+  padding-top: 10vh;
+}
+
+.stats-container {
+  margin: auto;
+  height: 70vh;
+  width: 80vh;
+  border-radius: 5vh;
+  background-color: rgb(64, 69, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.stats-container header {
+  color: rgb(201, 201, 201);
+  width: 70vh;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+.stats-container header p {
+  margin: 1vh 0;
+}
+.stats-container form {
+  height: 30vh;
+  width: 50vh;
+  display: grid;
+  grid-gap: 2vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  margin-bottom: 5vh;
+}
+.stats-container form p {
+  color: rgb(231, 202, 115);
+  font-size: 2vh;
+}
+.stats-container form input {
+  background-color: rgb(43, 46, 56);
+  border: none;
+  border-radius: 1vh;
+  caret-color: rgb(201, 201, 201);
+  color: rgb(201, 201, 201);
+  padding-left: 1vh;
+}
+.stats-container form input:focus {
+  outline: none;
+}
+.stats-container button {
+  border: none;
+  width: 20vh;
+  height: 5vh;
+  margin-bottom: 2vh;
+  transition: 0.2s;
+  border-radius: 0.6vh;
+  color: rgb(254, 254, 254);
+  cursor: pointer;
+  background-color: rgb(123, 123, 123);
+}
+.stats-container button:hover {
+  scale: 1.1;
+}
+.stats-container .msg h2 {
+  color: white;
+}
+.stats-container .msg h2 span {
+  color: rgb(93, 255, 93);
+}/*# sourceMappingURL=style.css.map */
