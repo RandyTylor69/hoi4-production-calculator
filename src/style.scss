@@ -22,7 +22,6 @@ main {
 
   header {
     width: 70vh;
-    margin-bottom: 5vh;
     text-align: center;
     color: white;
 
@@ -39,7 +38,7 @@ main {
     grid-gap: 1vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
-    margin-bottom: 3vh;
+    margin: 4vh 0;
 
     p {
       color: rgb(231, 202, 115);
