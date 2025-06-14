@@ -12,7 +12,7 @@ main {
 
 .stats-container {
   margin: auto;
-  height: 70vh;
+  height: 80vh;
   width: 70vh;
   border-radius: 5vh;
   background-color: rgb(64, 69, 83);
@@ -32,13 +32,13 @@ main {
   font-weight: 200;
 }
 .stats-container form {
-  height: 30vh;
+  height: 35vh;
   width: 50vh;
   display: grid;
-  grid-gap: 2vh;
+  grid-gap: 1vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5, 1fr);
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 .stats-container form p {
   color: rgb(231, 202, 115);
@@ -54,6 +54,7 @@ main {
   height: 3vh;
 }
 .stats-container form input {
+  height: 4vh;
   background-color: rgb(43, 46, 56);
   border: none;
   border-radius: 1vh;
@@ -64,6 +65,12 @@ main {
 }
 .stats-container form input:focus {
   outline: none;
+}
+.stats-container .btn-container {
+  display: flex;
+  width: 25vh;
+  justify-content: space-around;
+  align-items: center;
 }
 .stats-container button {
   border: none;
