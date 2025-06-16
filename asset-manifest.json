@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hoi4-production-calculator/static/css/main.f65772c0.css",
+    "main.js": "/hoi4-production-calculator/static/js/main.125dba7b.js",
+    "index.html": "/hoi4-production-calculator/index.html",
+    "main.f65772c0.css.map": "/hoi4-production-calculator/static/css/main.f65772c0.css.map",
+    "main.125dba7b.js.map": "/hoi4-production-calculator/static/js/main.125dba7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f65772c0.css",
+    "static/js/main.125dba7b.js"
+  ]
+}
